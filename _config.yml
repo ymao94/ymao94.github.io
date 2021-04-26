@@ -1,0 +1,37 @@
+# Site settings
+title: Yinpu Li
+description: 'Business Card Page'
+url: 'https://yinpuli.github.io/'
+baseurl: ''
+profilepic: '/images/yinpuli.jpg'
+bkimage: '/images/bk1.jpg'
+google_analytics: UA-XXXXXX-X
+font_awesome: 'XXXXXXXXXX.js'
+
+author:
+  name: 'Yinpu Li'
+  email: yinpu.li@stat.fsu.edu
+#  twitter_username: thomzuehlke
+#  facebook_username: joshgerdes
+  github_username:  YinpuLi
+  linkedin_username:  yinpuli
+#  meetup_name: Azure-Meetup-Rostock-MV
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md']
+#exclude: ['README.md', 'screenshot-overview.png']
