@@ -8,7 +8,11 @@
     <div class="content-wrapper">
       <div class="content-wrapper__inner">
         {{ content }}
-
+      
+    <div class="content-wrapper pubs hidden">
+      <div class="content-wrapper__inner">
+        {% include resume.yml %}
+        </div>
     
 
 
@@ -16,5 +20,10 @@
 
       {% include footer.html %}
     </div>
+
+    <div class="content-wrapper resume hidden">
+      <div class="content-wrapper__inner">
+        {% include resume.yml %}
+      </div>
   </body>
 </html>

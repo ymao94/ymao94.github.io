@@ -29,11 +29,13 @@ $(document).ready(function () {
   })
 
   if (window.location.hash && window.location.hash == '#projects') {
-    $('.panel-cover').addClass('panel-cover--collapsed')
+    $('.panel-cover').addClass('panel-cover--collapsed projects')
+    $('.content-wrapper.projects').removeClass('hidden').addClass('visible');
   }
     
-  if (window.location.hash && window.location.hash == '#cv') {
-    $('.panel-cover').addClass('panel-cover--collapsed')
+  if (window.location.hash && window.location.hash == '#resume') {
+    $('.panel-cover').addClass('panel-cover--collapsed resume')
+    $('.content-wrapper.resume').removeClass('hidden').addClass('visible');
   }
 
   if (window.location.pathname !== '{{ site.baseurl }}/' && window.location.pathname !== '{{ site.baseurl }}/index.html') {

@@ -5,7 +5,7 @@ robots: noindex
 
 <!--<div class="main-post-list">-->
 
-  <ul class="timeline">
+  <ul class="projects">
     
     {% for project in site.data.projects %}
 
@@ -29,7 +29,7 @@ robots: noindex
       </li>
     {% endfor %}   
         
-    {% for item in site.data.cv %}
+<!--    {% for item in site.data.cv %}
 
       <li class="timeline-inverted">
         <div class="timeline-image">
@@ -38,15 +38,15 @@ robots: noindex
         <div class="timeline-panel">
           <div class="timeline-heading">    
             <h4><a
-href="https://github.com/YinpuLihttps://github.com/ymao94/ymao94.github.io/tree/main/blogs/{{ item.filename }}" target="_blank">{{ item.name }}</a></h4>
+href="https://github.com/ymao94/ymao94.github.io/tree/main/blogs/{{ item.filename }}" target="_blank">{{ item.name }}</a></h4>
           </div>          
           <div class="timeline-body">
             {{ item.desc | markdownify }}
           </div>
         </div>
       </li>
-    {% endfor %}
-        
+    {% endfor %}--> 
+   
     <!--
     <li class="timeline-inverted">
       <div class="timeline-image">
@@ -55,5 +55,6 @@ href="https://github.com/YinpuLihttps://github.com/ymao94/ymao94.github.io/tree/
     </li> -->
   </ul>
 
+    
 <!--</div>-->
 
