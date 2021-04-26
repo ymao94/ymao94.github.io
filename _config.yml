@@ -4,7 +4,7 @@ description: 'Business Card Page'
 url: 'https://ymao94.github.io/'
 baseurl: ''
 profilepic: '/images/Profil.jpg'
-bkimage: '/images/bk1.jpg'
+bkimage: '/images/cover.jpg'
 google_analytics: UA-XXXXXX-X
 font_awesome: 'XXXXXXXXXX.js'
 
