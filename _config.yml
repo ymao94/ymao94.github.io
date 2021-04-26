@@ -1,20 +1,20 @@
 # Site settings
-title: Yinpu Li
+title: Yuanyuan Mao
 description: 'Business Card Page'
-url: 'https://yinpuli.github.io/'
+url: 'https://ymao94.github.io/'
 baseurl: ''
-profilepic: '/images/yinpuli.jpg'
+profilepic: '/images/Profil.jpg'
 bkimage: '/images/bk1.jpg'
 google_analytics: UA-XXXXXX-X
 font_awesome: 'XXXXXXXXXX.js'
 
 author:
-  name: 'Yinpu Li'
-  email: yinpu.li@stat.fsu.edu
+  name: 'Yuanyuan Mao'
+  email: yybmao@gmail.com
 #  twitter_username: thomzuehlke
 #  facebook_username: joshgerdes
-  github_username:  YinpuLi
-  linkedin_username:  yinpuli
+  github_username: ymao94
+  linkedin_username:  yybmao
 #  meetup_name: Azure-Meetup-Rostock-MV
 
 # Build settings
