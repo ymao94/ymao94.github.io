@@ -13,5 +13,4 @@
   gh_user: ymao94
   repo: drivesafe
   img: images/crash.png
-  desc: Rpackage and web application for uncertainty quantification of tail probabilities and densities under the framework of assumption lattice and uncertainty pyramid.
-
+  desc: We use PyGame to build an environment in which cars drive on streets randomly. The streets are connected with each other by crossings. With reinforcement learning methods like Q-Learning and Deep Q-Network, the cars successfully learned traffic rules.
